@@ -1,0 +1,18 @@
+<game>
+  <dialog id='1' type='normal'>
+    <line id='1' wajah='cowok' ekspresi='senyum'>Halo !.Nama aku Andi,kamu siapa ?</line>
+    <line id='2' wajah='cewek' ekspresi='senyum'>Nama aku Nia !.Senang berkenalan denganmu !</line>
+    <line id='3' wajah='cowok' ekspresi='heran'>Kamu dari mana ?</line>
+    <pindah>2</pindah>
+  </dialog>
+  <dialog id='2' type='jawab'>
+    <jawab id='1'>Aku dari Surabaya !</jawab>
+    <jawab id='1'>Aku dari Malang !</jawab>
+    <pindah>3</pindah>
+  </dialog>
+  <dialog id='3' type='normal'>
+    <line id='1' wajah='cowok' ekspresi='senyum'>Oh begitu !</line>
+    <pindah>4</pindah>
+  </dialog>
+  <dialog id='4' type='akhir'></dialog>
+</game>

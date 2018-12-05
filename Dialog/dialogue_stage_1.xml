@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<main_game>
+  <dialogue id='1' type="normal">
+    <baris id='1' face='player' expression='neutral' position='left'>Mah,Pah,kenapa kita harus ke rumah nenek sih ?!.Enakan juga main ke mall,ke pantai,atau ke tempat lain kek yang lebih seru</baris>
+    <baris id='2' face='mama' expression='marah' position='right'>Hush,kamu gak boleh gitu dong sayang !.Kamu kita ajak kesini karena makin lama,sikap kamu makin kurang baik.Kamu harus belajar tatakrama disini,sama nenekmu !</baris>
+    <baris id='3' face='papa' expression='neutral' position='right'>Iya,lagian kamu udah lama kan gak ketemu sama nenek kamu ?.Nenek pasti kangen banget sama kamu</baris>
+    <lanjut>2</lanjut>
+  </dialogue>
+
+  <dialogue id='2' type='question'>
+    <baris id='1' face='' expression='' position=''></baris>
+    <jawab id='1' face='player' expression='pasrah' position='left'>Yaudah deh,terpaksa aku mau ! \n</answer>
+    <lanjut id='1'>3</lanjut>
+    <jawab id='2' face='player' expression='marah' position='left'>Pokoknya aku gak mau !.Aku mau pulang ke kota aja ! \n</answer>
+    <lanjut id='2'>3</lanjut>
+  </dialogue>
+
+  <dialogue id='3' type='end'>
+
+  </dialogue>
+</main_game>
