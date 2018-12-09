@@ -12,20 +12,56 @@
     <pindah>2</pindah>
   </dialog>
   <dialog id='2' type="normal">
-    <line id='1' wajah='player' ekspresi='sedih' posisi='kiri'>Mah,Pah,kenapa kita harus ke rumah nenek sih ?!.Enakan juga main ke mall,ke pantai,atau ke tempat lain kek yang lebih seru</line>
-    <line id='2' wajah='mama' ekspresi='marah' posisi='kanan'>Hush,kamu gak boleh gitu dong sayang !.Kamu kita ajak kesini karena makin lama,sikap kamu makin kurang baik.Kamu harus belajar tatakrama disini,sama nenekmu !</line>
-    <line id='3' wajah='papa' ekspresi='neutral' posisi='kanan'>Iya,lagian kamu udah lama kan gak ketemu sama nenek kamu ?.Nenek pasti kangen banget sama kamu</line>
+    <dialog_Wilan>
+    <line id='1' wajah='player' ekspresi='sedih' posisi='kiri' gerak='tidak'>Mah,Pah,kenapa kita harus ke rumah nenek sih ?!.Enakan juga main ke mall,ke pantai,atau ke tempat lain kek yang lebih seru</line>
+    <line id='2' wajah='mama' ekspresi='marah' posisi='kanan' gerak='tidak'>Hush,kamu gak boleh gitu dong sayang !.Kamu kita ajak kesini karena makin lama,sikap kamu makin kurang baik.Kamu harus belajar tatakrama disini,sama nenekmu !</line>
+    <line id='3' wajah='papa' ekspresi='neutral' posisi='kanan' gerak='tidak'>Iya,lagian kamu udah lama kan gak ketemu sama nenek kamu ?.Nenek pasti kangen banget sama kamu</line>
+    </dialog_Wilan>
+    <dialog_Sinka>
+    <line id='1' wajah='player' ekspresi='sedih' posisi='kiri' gerak='tidak'>Mah,Pah,kenapa kita harus ke rumah nenek sih ?!.Enakan juga main ke mall,ke pantai,atau ke tempat lain kek yang lebih seru</line>
+    <line id='2' wajah='mama' ekspresi='marah' posisi='kanan' gerak='tidak'>Hush,kamu gak boleh gitu dong sayang !.Kamu kita ajak kesini karena makin lama,sikap kamu makin kurang baik.Kamu harus belajar tatakrama disini,sama nenekmu !</line>
+    <line id='3' wajah='papa' ekspresi='neutral' posisi='kanan' gerak='tidak'>Iya,lagian kamu udah lama kan gak ketemu sama nenek kamu ?.Nenek pasti kangen banget sama kamu</line>
+  </dialog_Sinka>
     <pindah>3</pindah>
   </dialog>
 
   <dialog id='3' type='jawab'>
-    <jawab id='1' wajah='player' ekspresi='pasrah' posisi='kiri' benar='benar'>Yaudah deh,terpaksa aku mau !</jawab>
+    <jawab id='1' wajah='player' ekspresi='pasrah' posisi='kiri' benar='benar' gerak='tidak'>Yaudah deh,terpaksa aku mau !</jawab>
     <pindah id='1'>4</pindah>
-    <jawab id='2' wajah='player' ekspresi='marah' posisi='kiri' benar='salah'>Pokoknya aku gak mau !.Aku mau pulang ke kota aja !</jawab>
+    <jawab id='2' wajah='player' ekspresi='marah' posisi='kiri' benar='salah' gerak='tidak'>Pokoknya aku gak mau !.Aku mau pulang ke kota aja !</jawab>
     <pindah id='2'>4</pindah>
   </dialog>
 
   <dialog id='4' type='jeda'>
     <pindah>5</pindah>
+  </dialog>
+
+  <dialog id='5' type='narasi'>
+    <dialog_Wilan><line>Ora let suwe, dheweke teka ing Desa Hanacaraka.
+      Suasana desa sing isih asri banget.
+      Sawah-sawah ana ing endi-endi, udara isih seger banget, kali-kali isih resik.
+      Banjur teka ing omah Mbah Putri. Omahe  yaiku omah adat jawa/Joglo, lan gedung kasebut digawe saka kayu jati.
+      Ana ing kana, dheweke disambut dening Mbah Putri lan kucing.</line></dialog_Wilan>
+    <dialog_Sinka><line>Ora let suwe, dheweke teka ing Desa Hanacaraka.
+      Suasana desa sing isih asri banget.
+      Sawah-sawah ana ing endi-endi, udara isih seger banget, kali-kali isih resik.
+      Banjur teka ing omah Mbah Putri. Omahe  yaiku omah adat jawa/Joglo, lan gedung kasebut digawe saka kayu jati.
+      Ana ing kana, dheweke disambut dening Mbah Putri lan kucing.</line></dialog_Sinka>
+    <pindah>6</pindah>
+  </dialog>
+
+  <dialog id='6' type='jawab'>
+    <jawab id='1' wajah='player' benar='benar' gerak='iya'>(Sungkem)</jawab>
+    <pindah id='1'>7</pindah>
+    <jawab id='2' wajah='player' benar='salah' gerak='tidak'>(Diam)</jawab>
+    <pindah id='2'>7</pindah>
+  </dialog>
+
+  <dialog id='7' type='normal'>
+    <dialog_Wilan>
+    <line id='1' wajah='nenek' ekspresi='senyum' posisi='kanan' gerak='tidak'>Wah putuku wis gedhe ya !. Mbah Putri kangen banget kaliyan Wilan</line>
+    <line id='2' wajah='player' ekspresi='senyum' posisi='kiri' gerak='tidak'>Hehe,nggeh mbah. kula..uga..kangen</line>
+    <line id='3' wajah='nenek' ekspresi='' gerak='tidak'>
+    </dialog_Wilan>
   </dialog>
 </game>
